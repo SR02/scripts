@@ -1,4 +1,6 @@
-﻿#Parameters for the script
+﻿##Script to block access based on FSRM event. Currently not tested
+
+#Parameters for the script
 param (
     [string]$username = $(throw "-username is required.")
 )
